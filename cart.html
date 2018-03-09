@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Cart</title>
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/cart.css">
+   <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<div id="header"></div>
+<div id="cart">
+   <div class="steps">
+     <ul>
+        <li class="active">
+           我的购物车
+           <span></span>
+        </li>
+        <li>
+           确定订单信息
+           <span></span>
+        </li>
+        <li>
+           选择支付方式
+           <span></span>
+        </li>
+        <li>
+           完成
+           <span></span>
+        </li>
+     </ul>
+   </div>
+   <div class="cart-box">
+      <div class="tips">
+         温馨提示：购物车中的商品无法保留库存，请您及时结算，商品库存以订单结算时为准！
+      </div>
+      <div id="show">
+         <div class="checkout_wrapper">
+            <div class="form-head">
+               <ul>
+                  <li class="checkbox">
+                     <label>
+                        <input id="selectAll" class="Cinput" type="checkbox">
+                        全选
+                     </label>
+                  </li>
+                  <li class="product_name">商品信息</li>
+                  <li class="product_price">单价</li>
+                  <li class="product_num">数量</li>
+                  <li class="product_operate">操作</li>
+               </ul>
+            </div>
+            <div id="items">
+               <!--<div class="shopping-item">-->
+                  <!--<ul>-->
+                     <!--<li class="checkbox">-->
+                        <!--<div class="item-pic">-->
+                           <!--<input type="checkbox" class="Cinput" name="checkItem">-->
+                           <!--<a href="#">-->
+                              <!--<img title="Hartford 餐椅" src="img/product-list/dining-room/chair/big/01.jpg">-->
+                           <!--</a>-->
+                        <!--</div>-->
+                     <!--</li>-->
+                     <!--<li class="product_name">-->
+                        <!--<div class="item-info">-->
+                           <!--<h3>-->
+                              <!--<a href="#">Harbor 餐椅</a>-->
+                           <!--</h3>-->
+                           <!--<p class="material">东南亚橡胶木/亚麻布/海绵/聚酯纤维 - 深樱桃木色</p>-->
+                           <!--<p class="spec">规格: 长51X宽60X高94CM</p>-->
+                        <!--</div>-->
+                     <!--</li>-->
+                     <!--<li class="product_price">-->
+                        <!--<div class="price">-->
+                           <!--<p class="color-red">￥1344.00</p>-->
+                        <!--</div>-->
+                     <!--</li>-->
+                     <!--<li class="product_num">-->
+                        <!--<div class="number">-->
+                           <!--<input type="text" value="1" class="product_val" name="quantity">-->
+                           <!--<button class="plus">+</button>-->
+                           <!--<button class="minus">-</button>-->
+                        <!--</div>-->
+                     <!--</li>-->
+                     <!--<li class="product_operate">-->
+                        <!--<div class="item-operate">-->
+                           <!--<a href="javascript:;">[ 修改 ]</a>-->
+                           <!--<a href="javascript:;">[ 收藏 ]</a>-->
+                           <!--<a href="javascript:;">[ 删除 ]</a>-->
+                        <!--</div>-->
+                     <!--</li>-->
+                  <!--</ul>-->
+               <!--</div>-->
+               <!--<div class="none">-->
+                  <!--<p>您还没有商品,请前去挑选商品</p>-->
+                  <!--<p><a href="main.html" class="buy">马上挑选商品</a></p>-->
+               <!--</div>-->
+            </div>
+         </div>
+         <div style="padding-top:20px">
+            <div class="summary">
+               <dl>
+                  <dt>
+                     <span class="product_num">
+                        商品数量总计:
+                        <strong id="product-count">0</strong>
+                        件
+                     </span>
+                     商品金额（不含运费）:
+                  </dt>
+                  <dd id="totalPrice">￥0.00</dd>
+               </dl>
+               <dl style="padding-top: 30px">
+                  <dt>合计:</dt>
+                  <dd class="price" id="total-amount">￥0.00</dd>
+               </dl>
+               <dl style="padding-top: 15px">
+                  <dd>
+                     <a class="go_on" href="main.html">继续购物</a>
+                     <button class="next_step" type="button">下一步</button>
+                  </dd>
+               </dl>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="scroll">
+      <span></span>
+   </div>
+</div>
+<div id="footer" style="margin-top:200px "></div>
+<script src="js/jquery.js"></script>
+<script src="js/header.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>

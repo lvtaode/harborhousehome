@@ -1,0 +1,173 @@
+#main{
+    margin-top: 5px;
+}
+#main div.banner{
+    position:relative;
+    height:600px;
+    max-width: 1920px;
+    width:100%;
+    overflow: hidden;
+}
+#main div.banner ul{
+    position: relative;
+    width:100%;
+    height:600px;
+}
+#main .banner li.banner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 600px;
+    width: 100%;
+}
+#main .banner{
+    margin-bottom: 20px;
+}
+#main .banner:hover>a{
+    display: block;
+}
+div.banner a{
+    position: absolute;
+    bottom: 260px;
+    width: 42px;
+    height: 113px;
+    cursor: pointer;
+    display:none;
+}
+.prevPage{
+    left:114px;
+    background: url(../img/arrowhead.png) 0 -60px;
+}
+.nextPage{
+    background: url(../img/arrowhead.png) -42px -60px;
+    right: 114px;
+}
+#main ul.circle{
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+}
+#main .circle li{
+    width: 13px;
+    height:13px;
+    background: #9d9d9d;
+    cursor: pointer;
+    border-radius: 50%;
+    float:left;
+    margin-right: 10px;
+}
+#main .circle li.active{
+    background-color: #ffffff;
+}
+#main .navImg{
+    width: 1180px;
+    margin: 0 auto;
+}
+#main .banner-group{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    min-width: 1180px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#main .bannerImg{
+    width: 2970px;
+    position: relative;
+    left: 50%;
+    margin-left: -1485px;
+    height: 500px;
+}
+#main div.img-box{
+    position: absolute;
+    left: 0px;
+    height: 500px;
+    width: 6930px;
+}
+#main div.img-box a{
+    float:left;
+}
+#main .banner-box {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    min-width: 1180px;
+}
+#main .lf-opacity,.rt-opacity{
+    position: absolute;
+    top: 0;
+    height: 500px;
+    width:990px;
+    background-color: black;
+    opacity: 0.6;
+}
+#main .lf-opacity{
+    left: 0px;
+}
+#main .rt-opacity{
+    right: 0px;
+}
+#main i.lf-btn,i.rt-btn{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    z-index: 2;
+    cursor: pointer;
+}
+#main i.lf-btn{
+    left: 890px;
+    background-image: url(../img/left.png);
+}
+#main i.rt-btn{
+    left: 2010px;
+    background-image: url(../img/right.png);
+}
+#main div.mid-img,div.bottom-img{
+    width: 1180px;
+    margin: 20px auto;
+}
+#main div.bottom-banner{
+    width: 100%;
+    height: 500px;
+    background-color: #9d9d9d;
+    margin-bottom: 20px;
+}
+#main div.m-position{
+    width: 100%;
+    height: 225px;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+#main div.m-position a{
+    width: 50%;
+    height: 225px;
+}
+#main div.pic-list{
+    width: 1180px;
+    height: 427px;
+    background: url(../img/footer.jpg) center no-repeat;
+}
+#main div.pic-list a{
+    float:left;
+    width: 590px;
+    height:220px;
+}
+#main div.member{
+    margin: 20px auto;
+}
+/*#main div.scroll{*/
+    /*position: fixed;*/
+    /*right: 20px;*/
+    /*bottom: 120px;*/
+    /*display: none;*/
+/*}*/
+/*#main div.scroll span{*/
+    /*display: block;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
+    /*background: url(../img/bg.png) -360px -80px;*/
+/*}*/

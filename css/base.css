@@ -1,0 +1,104 @@
+body{
+    font-size: 13px;
+    /*font-family: "Segoe UI", MicrosoftYaHei, 微软雅黑, SimSun, 宋体, sans-serif;*/
+    color:#9d9d9d;
+    margin: 0;
+    padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #616162;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.clear:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.img-mid{
+    vertical-align: middle;
+}
+.rel{
+    position:relative;
+}
+.color-red{
+    color: #A32B3F;
+}
+.middle-line{
+    text-decoration: line-through;
+}
+img {
+    vertical-align: bottom;
+    border: none;
+    border: 0;
+}
+button,input{
+    cursor: pointer;
+}
+.downTriangle{
+    position: absolute;
+    left: 40px;
+    bottom: -7px;
+    display: inline-block;
+    width: 11px;
+    height: 8px;
+    background: url("../img/bg.png") -320px 0;
+}
+.minus, .minus1 {
+    bottom: 2px;
+    background-position: 0 -40px;
+}
+.plus{
+    top: 2px;
+}
+.minus, .plus{
+    position: absolute;
+    right: 26px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    text-indent: -9999px;
+    background: url(../img/bg.png) 0 -160px;
+    border: none;
+    outline: 0;
+}
+.minus{
+    bottom: 2px;
+    background-position: 0 -40px;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+div.scroll span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../img/bg.png) -360px -80px;
+}
+div.scroll{
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+    display: none;
+}

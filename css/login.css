@@ -1,0 +1,113 @@
+#login{
+    font-size: 15px;
+    color: #7A7A7A;
+    width:1182px;
+    height:560px;
+    margin: 135px auto;
+    border:1px solid #9d9d9d;
+    border-top:3px solid #414042;
+}
+#login a{
+    color:#2075BB;
+}
+#login a:hover{
+    color:#204d74;
+}
+#login div.left-content{
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 580px;
+}
+#login div.left-content h3{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-right: 180px;
+}
+#login form div{
+    height: 60px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#login form div.userInput input{
+    font-size: 14px;
+    width: 290px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+    outline: none;
+}
+#login div.line{
+    border-top: 1px solid #9d9d9d;
+    padding-top: 5px;
+    font-size: 12px;
+    display: block;
+}
+#login div.line input{
+    vertical-align: middle;
+}
+#login div div.login-btn button{
+    margin-left: 138px;
+    font-size: 15px;
+    word-spacing: 15px;
+    width:165px;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    border: none;
+    color:#E0D6C6;
+    background-color: #4C4C4C;
+}
+#login div.right-content{
+    width:340px;
+    height: 520px;
+    margin-top: 20px;
+    border-left: 1px dashed #D1D3D4;
+}
+
+a.alipay{
+    margin: 10px auto;
+    width:222px;
+    height: 37px;
+    display: block;
+    line-height: 37px;
+    background: url(../img/bg.png) 53px -195px no-repeat #eee;
+    border-bottom: 2px solid #D1D3D4;
+    border-top: 1px solid #F1F2F2;
+}
+#login div.other-login{
+    margin-top: 80px;
+    text-align: center;
+}
+#login div.other-login a.jump{
+    display: inline-block;
+    width: 222px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #4C4C4C;
+    color:#E0D6C6;
+    margin: 50px 0;
+    font-size: 14px;
+    word-spacing: 8px;
+}
+#login h3{
+    font-weight: normal;
+}
+#login div.errorText{
+    float:right;
+    margin-left: 8px;
+    width: 180px;
+    padding: 0 0 0 5px;
+    color: #a32b3f;
+    font-size: 12px;
+}
+.ok{
+    display: inline-block;
+    position: relative;
+    right: -5px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px 0 0;
+    background: url(../img/bg.png) -40px -160px;
+}
